@@ -2,7 +2,7 @@
 
 import streamlit as st
 from pymongo import MongoClient
-from bson.objectid import ObjectId
+from bson.objectid import ObjectId # type: ignore
 
 import base64
 
