@@ -2,7 +2,7 @@
 
 import streamlit as st
 from pymongo import MongoClient
-from bson.objectid import ObjectId # type: ignore
+#  from bson.objectid import ObjectId # type: ignore
 
 import base64
 
@@ -78,7 +78,7 @@ def home():
     st.title("🏠 Home Page")
     st.success(f"Welcome to the home page, {st.session_state.username}!")
 
-import base64
+
 
 def data():
     set_background("home.png")
